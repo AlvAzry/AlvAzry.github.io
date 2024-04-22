@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #b08866;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.name-layout h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.name-layout h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.photo-layout img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b08866;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.profession-card, .skill-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profession-card p, .skill-card p {
+    line-height: 1.6;
+}
+
+.profession-card p {
+    margin-bottom: 0;
+}
+
+.skill-card h3 {
+    color: #b08866;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons li a img:hover {
+    transform: scale(1.1);
+}
